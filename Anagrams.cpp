@@ -6,15 +6,6 @@ that are anagrams.
 Note: All inputs will be in 
 lower-case (keep the duplicates)
 *******************************/
-
-#include <iostream>
-#include <vector>
-#include <map>
-#include <string>
-#include <algorithm>
-
-using namespace std;
-
 class Solution { 
 public:
     vector<string> anagrams(vector<string> &strs) {
@@ -42,8 +33,3 @@ public:
       return result;
     }
 };
-
-int main()
-{
-  return 0;
-}
