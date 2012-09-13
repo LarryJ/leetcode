@@ -16,11 +16,6 @@ If n = 4 and k = 2, a solution is:
 ]
 
 *******************************/
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
     vector<vector<int> > combine(int n, int k) {
@@ -52,10 +47,3 @@ public:
 	combine_recursion(n, k, combine, result, pos + 1);
     }
 };
-
-using namespace std;
-
-int main()
-{
-  return 0;
-}
