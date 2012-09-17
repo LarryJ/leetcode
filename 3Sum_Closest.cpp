@@ -12,11 +12,6 @@ S = {-1 2 1 -4}, and target = 1.
 The sum that is closest to the 
 target is 2. (-1 + 2 + 1 = 2).
 *******************************/
-#include <iostream>
-#include <vector>
-#include <algorithm>
-using namespace std;
-
 class Solution {
 public:
     int threeSumClosest(vector<int> &num, int target) {
@@ -46,12 +41,3 @@ public:
       return candidate;
     }
 };
-
-int main()
-{
-  int arr[] = {-3,-2,-5,3,-4};
-  vector<int> v(arr, arr + 5);
-  Solution a;
-  cout << a.threeSumClosest(v, -1) << endl;
-  return 0;
-}
